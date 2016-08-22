@@ -1,0 +1,16 @@
+name: Your New Jekyll Site
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+# sass:
+#     load_paths: [
+#       'node_modules/bourbon/app/assets/stylesheets',
+#       'node_modules/normalize-scss/sass'
+#   ]
+# assets:
+#   autoprefixer:
+#     browsers:
+#       - "last 15 versions"
+#
+gems:
+  - jekyll-assets
+#   - autoprefixer-rails

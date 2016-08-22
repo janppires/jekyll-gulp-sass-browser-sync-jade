@@ -1,0 +1,12 @@
+
+mixin nav-content()
+  ul
+    li: a(href="#about") About
+    li: a(href="#contact") Contact
+
+header
+  .header-position
+    h1.logo Random Name
+    
+    nav.site-nav
+      +nav-content()
